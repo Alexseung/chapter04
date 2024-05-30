@@ -1,0 +1,139 @@
+body {
+  display: contents;
+  font-size: 14px;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+}
+
+.navbar-left {
+  float: left;
+  color: black;
+  margin: 20px;
+}
+
+.navbar-left-first {
+  margin-right: 20px;
+}
+.navbar-right-second {
+  margin: 0 20px;
+}
+
+.navbar-right {
+  float: right;
+  color: black;
+  margin: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #202124;
+  justify-content: space-evenly;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.main {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.input-area {
+  margin-top: 20px;
+}
+
+.input-box {
+  width: 584px;
+  height: 46px;
+  padding-left: 40px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  background: #fff;
+  outline: none;
+}
+
+.search-icon {
+  position: relative;
+  left: 40px;
+  color: #9aa0a6;
+}
+
+.keyboard-icon {
+  position: relative;
+  right: 84px;
+  color: #9aa0a6;
+}
+.mic-icon {
+  position: relative;
+  right: 79px;
+  color: #9aa0a6;
+}
+.camera-icon {
+  position: relative;
+  right: 76px;
+  color: #9aa0a6;
+}
+
+.button {
+  padding-top: 20px;
+}
+
+.button-style {
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+  padding: 0 16px;
+  font-size: 14px;
+  height: 36px;
+}
+.button-style:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background: #f2f2f2;
+  width: 100%;
+}
+
+.footer a {
+  color: #202124;
+}
+
+.first-line {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #202124;
+}
+
+.second-line {
+  padding: 15px 30px;
+  font-size: 15px;
+  color: #202124;
+  display: block;
+}
+
+.second-line a:hover {
+  text-decoration: underline;
+}
+.second-line-first a {
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 14px;
+}
+.second-line-second {
+  float: right;
+}
+
+.second-line-second a {
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 14px;
+}
